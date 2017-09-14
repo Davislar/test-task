@@ -24,3 +24,20 @@ Test task
 
     1. Menu "Show"
     2. URL "http://url/show"
+    
+Модули
+
+1.API:
+ \modules\api
+ 
+2.Show:
+ \modules\show
+ 
+DB
+
+Main Model - \models\Data.php
+Model рефлизации пагинации - \models\DataPagination.php
+
+Migrations
+
+\migrations\m170914_210234_data.php - миграция таблици data
