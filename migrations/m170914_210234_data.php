@@ -14,16 +14,6 @@ class m170914_210234_data extends Migration
             'application' => $this->string(20)->notNull(),
             'message' => $this->string(1000)->notNull(),
         ]);
-
-//        Yii::$app->db->createCommand()->createTable('data', [
-//            'id' => 'pk',
-//            'code' => 'smallint(6)',
-//            'type' => 'tinyint(4)',
-//            'status' => 'ENUM(\'получено\',\'прочитано\',\'исправлено\')',
-//            'application' => 'varchar(20)',
-//            'message' => 'varchar(1000)',
-//        ]);
-//        Yii::$app->db->createCommand()->addPrimaryKey('', 'data', 'id');
     }
 
     public function safeDown()

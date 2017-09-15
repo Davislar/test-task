@@ -8,7 +8,7 @@ use yii\data\ActiveDataProvider;
 
 
 /**
- * SoutNumbersSearch represents the model behind the search form about `app\models\SoutNumbers`.
+ * SoutNumbersSearch represents the model behind the search form about `app\models\DataPagination`.
  */
 class DataPagination extends Data
 {
